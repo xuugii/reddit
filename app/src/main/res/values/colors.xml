@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CB0101</color>
+    <color name="colorPrimaryDark">#CB0101</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#ffffff</color>
+    <color name="colorSplashFontColor">#CB0101</color>
+
+
+
+    <!-- List item style -->
+    <color name="white">#ffffff</color>
+    <color name="gray">#a3a0a0</color>
+    <color name="black">#f7000000</color>
+    <color name="gold">#f7a8ab25</color>
+    <color name="reddit_bg">#d3d6db</color>
+    <color name="reddit_item_bg">#ffffff</color>
+    <color name="reddit_item_border">#c2c3c8</color>
+    <color name="reddit_link">#0a80d1</color>
+    <color name="reddit_timestamp">#a0a3a7</color>
+
+</resources>

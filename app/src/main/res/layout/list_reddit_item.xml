@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reddit_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/reddit_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="@dimen/reddit_item_margin"
+        android:layout_marginRight="@dimen/reddit_item_margin"
+        android:layout_marginTop="@dimen/reddit_item_margin"
+        android:background="@drawable/list_rounded_courser_normal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/reddit_item_padding_bottom"
+        android:paddingTop="@dimen/reddit_item_padding_top" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/reddit_item_padding_left_right"
+            android:paddingRight="@dimen/reddit_item_padding_left_right" >
+            <TextView
+                android:id="@+id/list_reddit_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/reddit_item_profile_name"
+                android:text="sdfasdfasdf"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/reddit_item_padding_left_right"
+            android:paddingRight="@dimen/reddit_item_padding_left_right" >
+
+            <TextView
+                android:id="@+id/list_reddit_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gold"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/list_reddit_subreddit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/gray"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

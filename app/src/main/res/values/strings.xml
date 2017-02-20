@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Reddit</string>
+    <string name="splash_text">Reddit</string>
+    <string name="title_activity_reddit">ActivityReddit</string>
+</resources>
